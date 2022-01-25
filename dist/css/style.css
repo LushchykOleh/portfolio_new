@@ -383,6 +383,9 @@ section {
       @media (max-width: 1024px) {
         .education__column h3 {
           padding: 20px 0; } }
+      @media (max-width: 1224px) {
+        .education__column h3 {
+          padding: 15px 0; } }
     .education__column .text-18 {
       font-size: 18px;
       font-weight: 700;
@@ -399,7 +402,7 @@ section {
       line-height: 1.438;
       padding: 11px 0 11px; }
     .education__column .add {
-      font-style: 16px;
+      font-style: 17px;
       font-weight: 400;
       font-family: "Roboto", serif;
       color: rgba(255, 255, 255, 0.502);
@@ -407,7 +410,7 @@ section {
       .education__column .add:after {
         display: block;
         position: relative;
-        content: '';
+        content: "";
         max-width: 500px;
         height: 2px;
         background: rgba(255, 255, 255, 0.502);
@@ -418,6 +421,9 @@ section {
       font-family: "Roboto", serif;
       color: rgba(255, 255, 255, 0.502);
       line-height: 1.438; }
+    @media (max-width: 1254px) {
+      .education__column {
+        width: calc(50% - 15px); } }
     @media (max-width: 1024px) {
       .education__column {
         width: calc(50% - 15px); } }
@@ -714,6 +720,11 @@ section {
       color: rgba(255, 255, 255, 0.502);
       padding: 10px 0 10px;
       text-align: center; }
+
+.video {
+  padding: 30px 0 300px;
+  margin: 0 auto;
+  display: flex; }
 
 
 /*# sourceMappingURL=style.css.map*/
